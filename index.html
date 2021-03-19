@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8" />
+<title>VRStart</title>
+<style>
+</style>
+</head>
+<body>
+  <div id="wrapper">
+    <h1><?php echo $message;?></h1>
+    <p><?php var_dump($_GET);?></p>
+    <form>
+     
+      <tr>
+        <td>
+          <div class="Go">
+          <p>
+            <input type="submit" method="post" value="Go" name="b1">
+          </p>
+        </div>
+      </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="Down">
+            <p>
+            <input type="submit" method="post" value="Down" name="b2">
+          </p>
+        </div>
+      </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="Left">
+            <p>
+            <input type="submit" method="post" value="Left" name="b3">
+          </p>
+        </div>
+      </td>
+      </tr>
+
+      <tr>
+        <td>
+            <div class="Right">
+              <p>
+              <input type="submit" method="post" value="Right" name="b4">
+            </p>
+          </div>
+        </td>
+      </tr>
+    </div>
+ 
+    </form>
+    <div id="header">
+    </div>
+    <div id="sidebar">
+    </div>
+    <div id="content">
+    </div>
+<!--Подвал-->
+    <div id="footer">
+    </div>
+  </div>
+
+</body>
+</html>
